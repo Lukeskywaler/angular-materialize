@@ -467,11 +467,11 @@
                 scope: {
                     inDuration: "@",
                     outDuration: "@",
-                    constrainWidth: "@",
+                    constrainWidth: "=",
                     hover: "@",
                     alignment: "@",
                     gutter: "@",
-                    belowOrigin: "@"
+                    belowOrigin: "="
                 },
                 link: function (scope, element, attrs) {
                     $timeout(function () {
